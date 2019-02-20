@@ -97,11 +97,13 @@ nav{
     justify-content: space-around;
     margin: 40px;
 }
+
 .destination{
     width:350px;
     height: 250px;
     margin: 30px;
 }
+
 .destination img{
     width: 350px;
     height: 250px;
@@ -180,4 +182,10 @@ footer{
     text-transform: uppercase;
     font-size: 1.2em;
     font-weight: lighter;
+}
+
+
+
+.conteudo-pricipal {
+    margin: 10px 40px;
 }
