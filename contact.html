@@ -21,17 +21,28 @@
         </ul>
     </nav>
 
-    <main class='conteudo-pricipal'>
-        <form>
-            <label for="name">Nome</label>
-            <input name="name" type="text" required placeholder="coloque seu nome aqui" />
-            <label for="email">E-mail</label>
-            <input type="text">
-            <label for="mensagem">Mensagem</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="checkbox"> <button>Enviar</button>
-        </form>
-    </main>
+    <section class="section-banner-contact" >
+            <form class='form' >
+                <h1>Contact us!</h1>
+
+                <label for="name">Nome</label>
+                <input id="name" name="name" type="text" required/>
+                
+                <label for="email">E-mail</label>
+                <input type="text" name="mail" id="email">
+                
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="6"></textarea>
+
+                <div class='send-box'>
+                   <div>
+                        <input type="checkbox" id="privacy" name="privacy" value="privacy" />
+                        <label for="privacy">Don't post my name</label>
+                   </div>  
+                   <button>Enviar</button>
+                </div>
+            </form>
+    </section>
 
 
     <footer>

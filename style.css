@@ -189,3 +189,63 @@ footer{
 .conteudo-pricipal {
     margin: 10px 40px;
 }
+
+/* contact */
+
+.section-banner-contact{
+    margin-top: 55px;
+    background: url('./img/img/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1.8em 2.3em 0 2.3em;
+    background-color: rgba(255, 255, 255, 0.822);
+}
+
+.form h1{
+    text-align:center;
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+.form input, .form textarea{
+    border: 1px solid purple;
+    border-radius: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.form textarea{
+    margin-bottom: 30px;
+}
+.form label{
+    margin-left: 10px;
+}
+
+.form .send-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 10px 10px;
+}
+
+.form .send-box button {
+    background-color: purple;
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 5px 55px;
+    text-decoration: none;
+    border: none;
+}
+
