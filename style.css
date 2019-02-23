@@ -219,10 +219,14 @@ footer{
 }
 
 .form input, .form textarea{
-    border: 1px solid purple;
+    border: 1px solid #5F4A90;
     border-radius: 30px;
-    padding: 5px;
+    padding: .3em 1em;
     margin-bottom: 10px;
+}
+
+input:focus, textarea:focus{
+    outline: none;
 }
 
 .form textarea{
@@ -240,7 +244,7 @@ footer{
 }
 
 .form .send-box button {
-    background-color: purple;
+    background-color: #5F4A90;
     color: white;
     font-size: 25px;
     border-radius: 30px;
