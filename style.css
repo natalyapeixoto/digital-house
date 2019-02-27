@@ -112,9 +112,10 @@ nav{
 .destination a {
     position: relative;
     top: -55px;
-    left: 119px;
+    left: 105px;
     background-color:white;
     padding: 10px 25px;
+  
 }
 .btn-check:hover, .destination a:hover{
     background-color: #5F4A90;
