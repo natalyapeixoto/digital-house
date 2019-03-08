@@ -33,10 +33,43 @@ nav{
     margin-right: 40px;
     align-items: center;
 }
+
+.nav-burguer{
+    display:none;
+}
 .nav-menu li {
     margin: 0 60px;
 }
 
+.mobile-menu{
+    display:none;
+}
+
+.show-menu{
+    display: block;
+}
+
+
+ @media (max-width: 720px){
+     .nav-menu{
+         display:none;
+     }
+      .nav-burguer{
+         display: flex;
+         list-style:none;
+         display: block;
+         font-size: 1.3em;
+         margin: 1rem;
+     }
+     .nav-burguer a {
+         font-size: 1.5em;
+     }
+     .nav-burguer a:hover{
+         color:purple;
+     }
+     
+  
+ } 
 .logo-container{
     display: flex;
     align-items: center;
@@ -53,6 +86,7 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     height: 100vh;
     display: flex;
     flex-direction: column;

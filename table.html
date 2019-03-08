@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    table,  td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+    th{
+        background-color: grey;
+        color:white;
+        padding: 10px;
+    }
+    tr:nth-child(odd){
+        background-color: rgb(177, 175, 175);
+    }
+    h2:before{
+        content: "Lojinha - ";
+        color: rgb(173, 7, 173);
+    }
+</style>
+<body>
+    <h1>Tabela - HTML</h1>
+    <h2>Carrinho de compras</h2>
+    <table>
+        <tr>
+            <th colspan="2">Produto</th>
+            <th>QTD</th>
+            <th colspan="2">Preço</th>         
+     </tr>
+        <tr>
+            <td rowspan='3'>Itens</td>
+            <td>Camiseta</td>
+            <td>5</td>
+            <td>$10</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td>Calça</td>
+            <td>5</td>
+            <td>$10</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td>Calça</td>
+            <td>5</td>
+            <td>$10</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td colspan="3">Total</td>
+            <td colspan="2">$120</td>
+        </tr>
+
+
+         
+    </table>
+    
+</body>
+</html>
