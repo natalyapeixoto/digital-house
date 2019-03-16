@@ -43,6 +43,15 @@ nav{
 
 .mobile-menu{
     display:none;
+    background-color: white;
+    list-style: none;
+    position: relative;
+    top: 70px;
+}
+
+.mobile-menu li {
+    padding: 5px;
+    margin: 5px;
 }
 
 .show-menu{
@@ -60,6 +69,8 @@ nav{
          display: block;
          font-size: 1.3em;
          margin: 1rem;
+         border:none;
+         background-color:transparent;
      }
      .nav-burguer a {
          font-size: 1.5em;
@@ -68,7 +79,6 @@ nav{
          color:purple;
      }
      
-  
  } 
 .logo-container{
     display: flex;
